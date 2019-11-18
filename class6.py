@@ -37,9 +37,9 @@ def plaindrome(num):
         num=num//10
         reverse=reverse*10+reminder
     if a==reverse:
-        print(" is an armstrong number")
+        print(a," is an armstrong number")
     else:
-        print(" is not an armstrng number")
+        print(a," is not an armstrng number")
 num1=int(input("enter the value of num ="))
 plaindrome(num1)
 '''
