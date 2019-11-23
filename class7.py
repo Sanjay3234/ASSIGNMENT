@@ -40,6 +40,3 @@ f3.close()
 #print("Fahrenheit Degree Converted into Celcius =",(list(celcius)))
 # Question 5 : Write a program that creates three different types of errors and then write except statement for them.
 # Question 6 : Write a program to create a user defined error whenever the string length is less than 3.
-class lenStringError(Exception):
-
-
